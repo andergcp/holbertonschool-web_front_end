@@ -23,6 +23,9 @@ body,
 a {
   color: var(--text-color);
 }
+body {
+  font-family: var(--font-family-base);
+}
 .visually-hidden {
   display: none;
 }
