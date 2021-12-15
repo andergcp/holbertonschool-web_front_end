@@ -1,0 +1,62 @@
+:root {
+  --max-box-height: 35%;
+  --mid-box-height: 21%;
+  --min-box-height: 14%;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  height: 50%;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-grow: 2;
+}
+
+.box1 {
+  background-color: blue;
+  font-size: 1rem;
+  height: var(--min-box-height);
+}
+
+.box2 {
+  background-color: gray;
+  font-size: 3rem;
+  height: var(--mid-box-height);
+}
+
+.box3 {
+  background-color: tomato;
+  font-size: 6rem;
+  height: var(--max-box-height);
+}
+
+.box4 {
+  background-color: green;
+  font-size: 3rem;
+  height: var(--mid-box-height);
+}
+
+.box5 {
+  background-color: yellowgreen;
+  font-size: 1rem;
+  height: var(--min-box-height);
+}
